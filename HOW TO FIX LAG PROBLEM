@@ -1,0 +1,84 @@
+FIXING THE EVER PRESENT LAGGY HEARTHSTONE CLIENT WHEN USING HDT
+
+THIS IS HOW YOU FIX THAT ISSUE:
+
+ways to fix laggy game client when using HDT:
+
+
+
+
+
+OPTION 1 (this option didn't work for me, but other people said it worked for them. option 2 worked for me)
+
+make your log.config file into read only
+
+GO TO
+C:\Users\>>>>>>YOUR COMPUTER'S NAME HERE<<<<\AppData\Local\Blizzard\Hearthstone
+
+C:\Users\\AppData\Local\Blizzard\Hearthstone 
+(copy and paste into file explorer and put your computers name in where i said or just find it using your brain and computer knowledge)
+
+THEN DO THIS:
+
+right click on log.config
+press properties
+tick read only
+press apply and okay
+
+(TO EDIT THIS FILE IN FUTURE UNTICK READ ONLY)
+
+DONE
+
+if that didn't work try this
+
+
+
+
+
+
+OPTION 2 (this is the option that worked for me)
+
+make your game run at a higher frame rate. e.g. 60fps 120fps 144fps.
+(since the game becomes choppy, simulating 5-10fps while the problem exists. why not increase the fps to compensate for the problem)
+(60, 120, 144 are common fps people use. if 60 doesn't work. try 120. if 120 doesnt work try 144. and so on)
+
+HERE IS WHAT YOU NEED TO DO:
+
+go here:
+C:\Users\>>>>>>YOUR COMPUTER'S NAME HERE<<<<\AppData\Local\Blizzard\Hearthstone 
+
+C:\Users\\AppData\Local\Blizzard\Hearthstone 
+(copy and paste into file explorer and put your computers name in where i said or just find it using your brain and computer knowledge)
+
+right click on options.txt
+press edit or open with > notepad
+scroll to the bottom
+underneither the last line of text with no spaces between this and the thing above it write:
+
+copy and paste this into there:
+
+targetframerate:i=60
+vsync:b=False
+showfps:b=True
+
+(make options.txt a read only file. how to do this is similar to what i said in option 1. right click options.txt > properties>tick readonly>apply>okay)
+
+DONE
+
+this should make your fps 60. it should stop your monitor from affecting a set frame rate and it will show you the fps you are getting.
+change 60 to any number you wish
+
+
+
+OPTION 3 (shitty option but some people seem to think it works lol. i don't know why but okay.
+
+delete log.config.
+
+don't worry it will come back every single time you play hearthstone. enjoy this shitty fix that doesn't even work. to find it just follow
+option 1 and delete it instead of going to properties.....
+
+
+I HAVE HAD THIS PROBLEM FOR MONTHS NOW AND FINALLY FOUND A FIX. YOU NEED TO MAKE THIS MORE OBVIOUS TO PEOPLE THAN IT CURRENTLY IS.
+ 
+
+
